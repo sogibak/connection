@@ -18,7 +18,7 @@
   const board=document.createElement('section');
   board.className='go-board';
   board.setAttribute('aria-label','Scroll to place Go stones');
-  board.innerHTML='<img class="go-board-image" src="assets/connection-board.jpg" alt="A translucent Go board with the CONNECTION mark"><div class="go-stones" aria-hidden="true"></div>';
+  board.innerHTML='<img class="go-board-image" src="assets/connection-board.png" alt="A translucent Go board with the CONNECTION mark"><div class="go-stones" aria-hidden="true"></div>';
   const welcome=invite.querySelector('#welcome');
   if(welcome)welcome.insertAdjacentElement('afterend',board);
   else form.insertAdjacentElement('afterend',board);
